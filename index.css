@@ -1,0 +1,19 @@
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    cursor: pointer;
+  }
+  
+  .crossOff{
+    text-decoration: line-through;
+  }
